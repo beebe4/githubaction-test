@@ -15,6 +15,7 @@ jobs:
       - name: Run tests
         run: |
           bundle exec rspec
+name: Run RSpec tests with Code Coverage
 on: [pull_request]
 jobs:
   run-rspec-tests:
