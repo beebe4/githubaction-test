@@ -6,4 +6,8 @@ module ContrivedMath
   def self.subtract(a, b)
     a - b
   end
+
+  def self.multiple(a, b)
+    a * b
+  end
 end

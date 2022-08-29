@@ -13,4 +13,10 @@ RSpec.describe Math do
       expect(ContrivedMath.subtract(2, 1)).to eq(1)
     end
   end
+
+  describe '#multiple' do
+    it 'multiplies two numbers' do
+      expect(ContrivedMath.multiple(2, 4)).to eq(8)
+    end
+  end
 end
